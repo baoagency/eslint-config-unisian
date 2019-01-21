@@ -21,7 +21,7 @@ module.exports = {
     'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
     'prefer-const': ['error'],
     'prefer-template': ['error'],
-    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-console': ['error', { allow: ['error', 'info', 'warn'] }],
     'no-unused-vars': ['error']
   },
   globals: {

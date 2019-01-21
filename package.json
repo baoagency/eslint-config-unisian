@@ -1,6 +1,6 @@
 {
   "name": "@by-association-only/eslint-config-unisian",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -9,6 +9,7 @@
   "author": "Dan Gamble",
   "license": "MIT",
   "dependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^3.4.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-friendly-formatter": "^4.0.1",
@@ -27,7 +28,6 @@
     "url": "https://github.com/baoagency/eslint-config-unisian/issues"
   },
   "homepage": "https://github.com/baoagency/eslint-config-unisian#readme",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -8,7 +8,7 @@ module.exports = {
     sourceType: 'module',
     allowImportExportEverywhere: true
   },
-  plugins: ['compat', 'html', 'prettier'],
+  plugins: ['compat', 'html', 'prettier', 'prettier-standard'],
   env: {
     browser: true,
     es6: true

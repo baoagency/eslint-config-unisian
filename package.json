@@ -10,19 +10,20 @@
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint-config-prettier": "^3.4.0",
+    "eslint-config-prettier": "^4.1.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-compat": "^2.6.3",
-    "eslint-plugin-html": "^5.0.0",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-compat": "^3.0.1",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier-standard": "^9.1.1"
   },
   "peerDependencies": {
-    "eslint": "^5.12.0"
+    "eslint": "^5.15.3"
   },
   "bugs": {
     "url": "https://github.com/baoagency/eslint-config-unisian/issues"

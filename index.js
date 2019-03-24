@@ -1,5 +1,7 @@
 module.exports = {
   extends: [
+    'prettier',
+    'prettier/standard',
     'standard',
     'plugin:compat/recommended'
   ],
@@ -8,7 +10,7 @@ module.exports = {
     sourceType: 'module',
     allowImportExportEverywhere: true
   },
-  plugins: ['compat', 'html', 'prettier', 'prettier-standard'],
+  plugins: ['compat', 'html', 'prettier'],
   env: {
     browser: true,
     es6: true

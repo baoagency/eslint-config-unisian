@@ -1,9 +1,9 @@
 module.exports = {
   extends: [
+    'standard',
+    'plugin:compat/recommended',
     'prettier',
     'prettier/standard',
-    'standard',
-    'plugin:compat/recommended'
   ],
   parser: 'babel-eslint',
   parserOptions: {

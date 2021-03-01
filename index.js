@@ -4,7 +4,6 @@ module.exports = {
     'prettier',
     'prettier/standard',
     'plugin:compat/recommended',
-    'plugin:react/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
   ],
@@ -13,7 +12,7 @@ module.exports = {
     sourceType: 'module',
     allowImportExportEverywhere: true
   },
-  plugins: ['compat', 'html', 'prettier', 'react', 'import'],
+  plugins: ['compat', 'html', 'prettier', 'import'],
   env: {
     browser: true,
     es6: true
@@ -28,9 +27,6 @@ module.exports = {
     'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
     'prefer-const': ['error'],
     'prefer-template': ['error'],
-
-    // React
-    'jsx-quotes': ['error', 'prefer-double'],
 
     // Import
     'import/no-default-export': ['error'],

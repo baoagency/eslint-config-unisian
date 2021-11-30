@@ -1,10 +1,10 @@
 module.exports = {
   extends: [
-    'standard',
     'prettier',
     'plugin:compat/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
+    'standard',
   ],
   parserOptions: {
     parser: 'babel-eslint',
@@ -26,6 +26,12 @@ module.exports = {
     'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
     'prefer-const': ['error'],
     'prefer-template': ['error'],
+
+    'lines-between-class-members': [
+      'error',
+      'always',
+      { exceptAfterSingleLine: true },
+    ],
 
     // Import
     'import/no-default-export': ['error'],

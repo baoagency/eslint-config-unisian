@@ -6,11 +6,6 @@ module.exports = {
     'plugin:import/warnings',
     'standard',
   ],
-  parserOptions: {
-    parser: 'babel-eslint',
-    sourceType: 'module',
-    allowImportExportEverywhere: true
-  },
   plugins: ['compat', 'html', 'prettier', 'import'],
   env: {
     browser: true,
